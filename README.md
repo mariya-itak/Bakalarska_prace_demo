@@ -1,0 +1,1 @@
+Moje bakalářská práce od roku 2022. Cílem bakalářky bylo vytvoření aplikace pro humanoidního robota Pepper, kde si uživatel schopný sestavit z tanečních pohybů vlastní tanec a zvolit hudební doprovod k výslednému tanci. Tanec bude synchronizován s hudbou podle její rytmu.

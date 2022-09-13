@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    tools:context=".MovesSettings">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/move_image"
+            android:layout_width="240dp"
+            android:layout_height="203dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="48dp">
+        </ImageView>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:text="@string/intensity"
+                android:textAppearance="@style/TextAppearance.Shrine.Title" />
+
+            <SeekBar
+                android:id="@+id/intens_seekbar"
+                android:layout_width="194dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="350dp">
+            </SeekBar>
+
+            <TextView
+                android:id="@+id/intens_counter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="600dp"
+                android:text="@string/_0"
+                android:textAppearance="@style/TextAppearance.Shrine.Title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="100dp"
+                android:text="@string/smoothness"
+                android:textAppearance="@style/TextAppearance.Shrine.Title" />
+
+            <SeekBar
+                android:id="@+id/smooth_seekbar"
+                android:layout_width="194dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="350dp"
+                android:layout_marginTop="100dp">
+            </SeekBar>
+
+            <TextView
+                android:id="@+id/smooth_counter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="600dp"
+                android:layout_marginTop="100dp"
+                android:text="@string/_0"
+                android:textAppearance="@style/TextAppearance.Shrine.Title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="200dp"
+                android:text="@string/repeating"
+                android:textAppearance="@style/TextAppearance.Shrine.Title" />
+
+            <SeekBar
+                android:id="@+id/rep_seekbar"
+                android:layout_width="194dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="350dp"
+                android:layout_marginTop="200dp">
+            </SeekBar>
+
+            <TextView
+                android:id="@+id/rep_counter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="600dp"
+                android:layout_marginTop="200dp"
+                android:text="@string/_0"
+                android:textAppearance="@style/TextAppearance.Shrine.Title" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="60dp"
+            android:text="@string/back" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/ok_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginStart="660dp"
+            android:text="@string/ok" />
+    </LinearLayout>
+
+</LinearLayout>
+

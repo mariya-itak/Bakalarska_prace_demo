@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Dance generator</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="me">Me</string>
+    <string name="family">Family</string>
+    <string name="lovely">Lovely</string>
+    <string name="team">Team</string>
+    <string name="friends">Friends</string>
+    <string name="calendars">Calendars</string>
+
+    <string-array name="songs_array">
+        <item ></item>
+        <item>Macarena</item>
+        <item>Jozin</item>
+        <item>Gagnam</item>
+        <item >Club_music</item>
+        <item>Piano_song</item>
+        <item>Village_tarantella</item>
+        <item>Bavarian</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="all">All</string>
+    <string name="macarena">Macarena</string>
+    <string name="back">Back</string>
+    <string name="intensity">Intensity</string>
+    <string name="song">Song</string>
+    <string name="moves">Moves</string>
+    <string name="open_moves_list">Open moves list...</string>
+    <string name="play">Play song</string>
+    <string name="smoothness">Smoothness</string>
+    <string name="repeating">Repeating</string>
+    <string name="_0">0</string>
+    <string name="ok">Ok</string>
+    <string name="show_dance">Show dance</string>
+    <string name="ballet">ballet</string>
+</resources>

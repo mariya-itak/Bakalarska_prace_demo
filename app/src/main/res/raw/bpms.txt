@@ -1,0 +1,7 @@
+gagnam:132.0
+macarena:53.0
+jozin:56.0
+bi_bi:100.0
+piano_song:50.0
+village_tarantella:72.0
+bavarian:110.0
