@@ -24,6 +24,11 @@ import java.io.FileInputStream;
 
 import static com.tutlane.bakalarka.StartPage.getResId;
 
+/*
+    Trida je pro ovladani robota pomoci aplikace. Pomoci trid AnimationBuilder a AnimateBuilder se spusti pripravena animace na robotovi.
+    Take pomoci tridy MediaPlayer spolu s tancem se prehraje zvolena uzivatelem hudba.
+*/
+
 public class RobotPepperActivity extends RobotActivity implements RobotLifecycleCallbacks {
     private Animate animate;
     private String danceScript = "";
