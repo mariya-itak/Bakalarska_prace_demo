@@ -38,6 +38,11 @@ import kotlin.NotImplementedError;
 
 import static com.tutlane.bakalarka.StartPage.getResId;
 
+/*
+   Okno se otevre pri stisknuti obrazku pozadovaneho pohybu. To je okno s nastavenim parametru pohybu.
+   Obsahuje exemplare tridy SeekBar na nastaveni hodnot jednotlivych parametru. 
+*/
+
 public class MovesSettings extends Fragment implements RobotLifecycleCallbacks {
     public String moveId;
     private Animate animate;
@@ -122,6 +127,10 @@ public class MovesSettings extends Fragment implements RobotLifecycleCallbacks {
 
     @Override
     public void onRobotFocusGained(QiContext qiContext) {
+        
+        /*
+            Pri zvoleni pohybu a prechodu na okno se zvolenym pohybem volanim teto metody robot demonstruje zvoleny pohyb.
+        */
         Animation animation = AnimationBuilder.with(qiContext)
                 .withResources(getResId(moveId, R.raw.class))
                 .build();
