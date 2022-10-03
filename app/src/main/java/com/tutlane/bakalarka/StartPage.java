@@ -134,6 +134,11 @@ public class StartPage extends Fragment{
         view.findViewById(R.id.show_dance_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                
+                /*
+                    V tele teto metody se sestavuje vysledny tanec. Script s tancem pro robota je vytvoren pomoci jazyka XML. Zvolene uzivatelem pohyby se nejdriv uchovavaji ve formatu json, pak z toho se vytvari XML script. 
+                */
+                
                 String[] danceMoves = readFromFile("dance.txt").split("\n");
                 InputStream is = getResources().openRawResource(getResId("moves_parameters", R.raw.class));
                 StringBuilder moveScript = new StringBuilder();
