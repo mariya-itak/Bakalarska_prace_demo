@@ -5,6 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
+/*
+    Je main tridou programu, pri bezchybovem zapnuti aplikace program prejde na startovni okno aplikace - StartPage.
+*/
 
 public class MainActivity extends AppCompatActivity implements NavigationHost {
     @Override
