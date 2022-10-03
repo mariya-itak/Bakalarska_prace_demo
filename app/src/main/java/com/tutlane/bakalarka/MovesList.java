@@ -17,6 +17,11 @@ import com.google.android.material.tabs.TabLayout;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+    Reprezentuje okno aplikace se seznamem pohybu. Seznam pohybu je rozdeleny podle stylu.
+    Kazdy styl je exemplarem tridy Fragment, coz je soucasti tridy viewPagerAdapter.
+*/
+
 public class MovesList extends Fragment {
     private ViewPager viewPager;
     private TabLayout tabLayout;
