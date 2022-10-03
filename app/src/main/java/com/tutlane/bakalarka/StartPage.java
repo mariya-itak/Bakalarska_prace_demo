@@ -39,7 +39,7 @@ import java.util.Map;
 import kotlin.NotImplementedError;
 
 /*
-    Je hlavni okno aplikace, obsahuje tlacitka (exemplare trid Button nebo MaterialButton) na volbu hudby, pohzbu, prehravani hudby a ukazky vysledneho tance. 
+    Je hlavni okno aplikace, obsahuje tlacitka (exemplare trid Button nebo MaterialButton) na volbu hudby, pohybu, prehravani hudby a ukazky vysledneho tance. 
 */
 
 public class StartPage extends Fragment{
