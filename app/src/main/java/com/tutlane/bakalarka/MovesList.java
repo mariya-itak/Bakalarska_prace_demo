@@ -18,7 +18,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
-    Reprezentuje okno aplikace se seznamem pohybu, ktere se objevi pri stisknuti tlacitka OPEN MOVES LIST v okne StartPage  Seznam pohybu je rozdeleny podle stylu.
+    Reprezentuje okno aplikace se seznamem pohybu, ktere se objevi pri stisknuti tlacitka OPEN MOVES LIST v okne StartPage.
+    Seznam pohybu je rozdeleny podle stylu.
     Kazdy styl je exemplarem tridy Fragment, coz je soucasti tridy viewPagerAdapter.
 */
 
